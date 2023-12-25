@@ -423,8 +423,7 @@ class LicensePlateRecognition:
                     text_size, _ = cv2.getTextSize(license_plate_text, font, font_scale, thickness)
                     cv2.rectangle(image, (vehicle_box[0], vehicle_box[1]), (vehicle_box[0] + text_size[0], vehicle_box[1] - text_size[1] - 5), vehicle_box_color, -1)
                     cv2.putText(image, license_plate_text, (vehicle_box[0], vehicle_box[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), thickness)
-                    #publish(client,"user/lilywu@msi.com;"+license_plate_text+";unlock")
-                    publish(client,"user/lilywu@msi.com;"+license_plate_text+";unlock")
+                    publish(client,"user/test@msi.com;"+license_plate_text+";unlock")
                     
                 # draw license plate
                 license_plate_image = license_plate[LicensePlateRecognition.RESULT_LICENSE_PLATE_IMAGE_KEY]
