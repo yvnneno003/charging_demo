@@ -19,7 +19,7 @@ client_id = f'python-mqtt-{random.randint(0, 10000)}'
 str_message = ""
 
 sub_topic = "device/5760/charger/TW*MSI*E000151"
-pub_topic = "user/lilywu@msi.com;ABC-1234"
+pub_topic = "user/test@msi.com;ABC-1234"
 
 #global m_plate_num
 m_plate_num = "XXX-1111"
