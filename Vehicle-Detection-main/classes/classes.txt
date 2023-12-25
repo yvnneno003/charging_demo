@@ -1,0 +1,10 @@
+__background__
+person
+bicycle
+car
+motorcycle
+airplane
+bus
+train
+truck
+license
