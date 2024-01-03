@@ -543,7 +543,7 @@ default_show_fps = False
 default_debug = False
 
 # mqtt
-serverIp = '60.251.140.228'
+serverIp = ''
 port = 1883
 topic ="device/5760/charger/TW*MSI*E000151"
 # generate client ID with pub prefix randomly
