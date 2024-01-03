@@ -13,7 +13,7 @@ import json
 import calendar
 import pytz
 
-serverIp = '60.251.140.228'
+serverIp = ''
 port = 1883
 client_id = f'python-mqtt-{random.randint(0, 10000)}'
 str_message = ""
